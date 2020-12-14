@@ -54,7 +54,7 @@ class Calculator extends StatelessWidget {
                                   width: MediaQuery.of(context).size.width,
                                   child: Padding(
                                     padding: const EdgeInsets.all(16.0),
-                                    child: Text("121",
+                                    child: Text("122",
                                         overflow: TextOverflow.visible,
                                         textAlign: TextAlign.end,
                                         style: TextStyle(
@@ -180,9 +180,9 @@ class Calculator extends StatelessWidget {
                                 child: Text(
                               "( )",
                               style: TextStyle(
-                                  color: Colors.green,
+                                  color: Colors.green[700],
                                   fontSize: 25,
-                                  fontWeight: FontWeight.normal),
+                                  fontWeight: FontWeight.w500),
                             )))),
                     Container(
                         color: Colors.white,
@@ -203,9 +203,9 @@ class Calculator extends StatelessWidget {
                                 child: Text(
                               "%",
                               style: TextStyle(
-                                  color: Colors.green,
+                                  color: Colors.green[700],
                                   fontSize: 35,
-                                  fontWeight: FontWeight.normal),
+                                  fontWeight: FontWeight.w500),
                             )))),
                     Container(
                         color: Colors.white,
@@ -226,9 +226,9 @@ class Calculator extends StatelessWidget {
                                 child: Text(
                               "÷",
                               style: TextStyle(
-                                  color: Colors.green,
-                                  fontSize: 35,
-                                  fontWeight: FontWeight.normal),
+                                  color: Colors.green[700],
+                                  fontSize: 45,
+                                  fontWeight: FontWeight.w400),
                             )))),
                   ],
                 ),
@@ -331,9 +331,9 @@ class Calculator extends StatelessWidget {
                                 child: Text(
                               "x",
                               style: TextStyle(
-                                  color: Colors.green,
-                                  fontSize: 30,
-                                  fontWeight: FontWeight.normal),
+                                  color: Colors.green[700],
+                                  fontSize: 45,
+                                  fontWeight: FontWeight.w400),
                             )))),
                   ],
                 ),
@@ -436,9 +436,9 @@ class Calculator extends StatelessWidget {
                                 child: Text(
                               "−",
                               style: TextStyle(
-                                  color: Colors.green,
-                                  fontSize: 35,
-                                  fontWeight: FontWeight.normal),
+                                  color: Colors.green[700],
+                                  fontSize: 45,
+                                  fontWeight: FontWeight.w400),
                             )))),
                   ],
                 ),
@@ -541,9 +541,9 @@ class Calculator extends StatelessWidget {
                                 child: Text(
                               "+",
                               style: TextStyle(
-                                  color: Colors.green,
-                                  fontSize: 35,
-                                  fontWeight: FontWeight.normal),
+                                  color: Colors.green[700],
+                                  fontSize: 45,
+                                  fontWeight: FontWeight.w400),
                             ))))
                   ],
                 ),
@@ -634,7 +634,7 @@ class Calculator extends StatelessWidget {
                         width: MediaQuery.of(context).size.width / 4,
                         child: Container(
                             decoration: new BoxDecoration(
-                                color: Colors.green.withOpacity(1),
+                                color: Colors.green[700].withOpacity(1),
                                 borderRadius: BorderRadius.circular(100.0)),
                             margin: new EdgeInsets.fromLTRB(10, 15, 10, 15),
                             padding: new EdgeInsets.fromLTRB(
