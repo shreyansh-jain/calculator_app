@@ -143,93 +143,101 @@ class Calculator extends StatelessWidget {
                         padding: new EdgeInsets.all(0.0),
                         height: MediaQuery.of(context).size.height * 0.55 / 5,
                         width: MediaQuery.of(context).size.width / 4,
-                        child: Container(
-                            decoration: new BoxDecoration(
-                                color: Colors.black.withOpacity(0.05),
-                                borderRadius: BorderRadius.circular(100.0)),
-                            margin: new EdgeInsets.fromLTRB(10, 15, 10, 15),
-                            padding: new EdgeInsets.fromLTRB(
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40),
-                            child: Center(
-                                child: Text(
-                              "C",
-                              style: TextStyle(
-                                  color: Colors.red,
-                                  fontSize: 35,
-                                  fontWeight: FontWeight.normal),
-                            )))),
+                        child: Padding(
+                          padding: EdgeInsets.only(
+                              left: 10, right: 10, top: 15, bottom: 15),
+                          child: RaisedButton(
+                            elevation: 0,
+                            textColor: Colors.white,
+                            color: Colors.grey.withOpacity(0.12),
+                            child: Text("C",
+                                style: TextStyle(
+                                    color: Colors.red,
+                                    fontSize: 35,
+                                    fontWeight: FontWeight.normal)),
+                            onPressed: () {},
+                            shape: new RoundedRectangleBorder(
+                                borderRadius: new BorderRadius.circular(30.0),
+                                side: BorderSide(
+                                    color: Colors.black.withOpacity(0.1),
+                                    width: 0.5)),
+                          ),
+                        )),
                     Container(
                         color: Colors.white,
                         padding: new EdgeInsets.all(0.0),
                         height: MediaQuery.of(context).size.height * 0.55 / 5,
                         width: MediaQuery.of(context).size.width / 4,
-                        child: Container(
-                            decoration: new BoxDecoration(
-                                color: Colors.black.withOpacity(0.05),
-                                borderRadius: BorderRadius.circular(100.0)),
-                            margin: new EdgeInsets.fromLTRB(10, 15, 10, 15),
-                            padding: new EdgeInsets.fromLTRB(
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40),
-                            child: Center(
-                                child: Text(
-                              "( )",
-                              style: TextStyle(
-                                  color: Colors.green[700],
-                                  fontSize: 25,
-                                  fontWeight: FontWeight.w500),
-                            )))),
+                        child: Padding(
+                          padding: EdgeInsets.only(
+                              left: 10, right: 10, top: 15, bottom: 15),
+                          child: RaisedButton(
+                            elevation: 0,
+                            textColor: Colors.white,
+                            color: Colors.grey.withOpacity(0.12),
+                            child: Text("( )",
+                                style: TextStyle(
+                                    color: Colors.green[700],
+                                    fontSize: 25,
+                                    fontWeight: FontWeight.w500)),
+                            onPressed: () {},
+                            shape: new RoundedRectangleBorder(
+                                borderRadius: new BorderRadius.circular(30.0),
+                                side: BorderSide(
+                                    color: Colors.black.withOpacity(0.1),
+                                    width: 0.5)),
+                          ),
+                        )),
                     Container(
                         color: Colors.white,
                         padding: new EdgeInsets.all(0.0),
                         height: MediaQuery.of(context).size.height * 0.55 / 5,
                         width: MediaQuery.of(context).size.width / 4,
-                        child: Container(
-                            decoration: new BoxDecoration(
-                                color: Colors.black.withOpacity(0.05),
-                                borderRadius: BorderRadius.circular(100.0)),
-                            margin: new EdgeInsets.fromLTRB(10, 15, 10, 15),
-                            padding: new EdgeInsets.fromLTRB(
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40),
-                            child: Center(
-                                child: Text(
-                              "%",
-                              style: TextStyle(
-                                  color: Colors.green[700],
-                                  fontSize: 35,
-                                  fontWeight: FontWeight.w500),
-                            )))),
+                        child: Padding(
+                          padding: EdgeInsets.only(
+                              left: 10, right: 10, top: 15, bottom: 15),
+                          child: RaisedButton(
+                            elevation: 0,
+                            textColor: Colors.white,
+                            color: Colors.grey.withOpacity(0.12),
+                            child: Text("%",
+                                style: TextStyle(
+                                    color: Colors.green[700],
+                                    fontSize: 35,
+                                    fontWeight: FontWeight.w500)),
+                            onPressed: () {},
+                            shape: new RoundedRectangleBorder(
+                                borderRadius: new BorderRadius.circular(30.0),
+                                side: BorderSide(
+                                    color: Colors.black.withOpacity(0.1),
+                                    width: 0.5)),
+                          ),
+                        )),
                     Container(
                         color: Colors.white,
                         padding: new EdgeInsets.all(0.0),
                         height: MediaQuery.of(context).size.height * 0.55 / 5,
                         width: MediaQuery.of(context).size.width / 4,
-                        child: Container(
-                            decoration: new BoxDecoration(
-                                color: Colors.black.withOpacity(0.05),
-                                borderRadius: BorderRadius.circular(100.0)),
-                            margin: new EdgeInsets.fromLTRB(10, 15, 10, 15),
-                            padding: new EdgeInsets.fromLTRB(
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40),
-                            child: Center(
-                                child: Text(
-                              "÷",
-                              style: TextStyle(
-                                  color: Colors.green[700],
-                                  fontSize: 45,
-                                  fontWeight: FontWeight.w400),
-                            )))),
+                        child: Padding(
+                          padding: EdgeInsets.only(
+                              left: 10, right: 10, top: 15, bottom: 15),
+                          child: RaisedButton(
+                            elevation: 0,
+                            textColor: Colors.white,
+                            color: Colors.grey.withOpacity(0.12),
+                            child: Text("÷",
+                                style: TextStyle(
+                                    color: Colors.green[700],
+                                    fontSize: 45,
+                                    fontWeight: FontWeight.w400)),
+                            onPressed: () {},
+                            shape: new RoundedRectangleBorder(
+                                borderRadius: new BorderRadius.circular(30.0),
+                                side: BorderSide(
+                                    color: Colors.black.withOpacity(0.1),
+                                    width: 0.5)),
+                          ),
+                        )),
                   ],
                 ),
                 Row(
@@ -239,102 +247,101 @@ class Calculator extends StatelessWidget {
                         padding: new EdgeInsets.all(0.0),
                         height: MediaQuery.of(context).size.height * 0.55 / 5,
                         width: MediaQuery.of(context).size.width / 4,
-                        child: Container(
-                            decoration: new BoxDecoration(
-                                color: Colors.black.withOpacity(0.05),
-                                border: Border.all(
-                                    color: Colors.black.withOpacity(0.2),
-                                    width: 0.25),
-                                borderRadius: BorderRadius.circular(100.0)),
-                            margin: new EdgeInsets.fromLTRB(10, 15, 10, 15),
-                            padding: new EdgeInsets.fromLTRB(
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40),
-                            child: Center(
-                                child: Text(
-                              "7",
-                              style: TextStyle(
-                                  color: Colors.black.withOpacity(0.8),
-                                  fontSize: 40,
-                                  fontWeight: FontWeight.w400),
-                            )))),
+                        child: Padding(
+                          padding: EdgeInsets.only(
+                              left: 10, right: 10, top: 15, bottom: 15),
+                          child: RaisedButton(
+                            elevation: 0,
+                            textColor: Colors.white,
+                            color: Colors.grey.withOpacity(0.12),
+                            child: Text("7",
+                                style: TextStyle(
+                                    color: Colors.black.withOpacity(0.8),
+                                    fontSize: 40,
+                                    fontWeight: FontWeight.w400)),
+                            onPressed: () {},
+                            shape: new RoundedRectangleBorder(
+                                borderRadius: new BorderRadius.circular(30.0),
+                                side: BorderSide(
+                                    color: Colors.black.withOpacity(0.1),
+                                    width: 0.5)),
+                          ),
+                        )),
                     Container(
                         color: Colors.white,
                         padding: new EdgeInsets.all(0.0),
                         height: MediaQuery.of(context).size.height * 0.55 / 5,
                         width: MediaQuery.of(context).size.width / 4,
-                        child: Container(
-                            decoration: new BoxDecoration(
-                                color: Colors.black.withOpacity(0.05),
-                                border: Border.all(
-                                    color: Colors.black.withOpacity(0.2),
-                                    width: 0.25),
-                                borderRadius: BorderRadius.circular(100.0)),
-                            margin: new EdgeInsets.fromLTRB(10, 15, 10, 15),
-                            padding: new EdgeInsets.fromLTRB(
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40),
-                            child: Center(
-                                child: Text(
-                              "8",
-                              style: TextStyle(
-                                  color: Colors.black.withOpacity(0.8),
-                                  fontSize: 40,
-                                  fontWeight: FontWeight.w400),
-                            )))),
+                        child: Padding(
+                          padding: EdgeInsets.only(
+                              left: 10, right: 10, top: 15, bottom: 15),
+                          child: RaisedButton(
+                            elevation: 0,
+                            textColor: Colors.white,
+                            color: Colors.grey.withOpacity(0.12),
+                            child: Text("8",
+                                style: TextStyle(
+                                    color: Colors.black.withOpacity(0.8),
+                                    fontSize: 40,
+                                    fontWeight: FontWeight.w400)),
+                            onPressed: () {},
+                            shape: new RoundedRectangleBorder(
+                                borderRadius: new BorderRadius.circular(30.0),
+                                side: BorderSide(
+                                    color: Colors.black.withOpacity(0.1),
+                                    width: 0.5)),
+                          ),
+                        )),
                     Container(
                         color: Colors.white,
                         padding: new EdgeInsets.all(0.0),
                         height: MediaQuery.of(context).size.height * 0.55 / 5,
                         width: MediaQuery.of(context).size.width / 4,
-                        child: Container(
-                            decoration: new BoxDecoration(
-                                color: Colors.black.withOpacity(0.05),
-                                border: Border.all(
-                                    color: Colors.black.withOpacity(0.2),
-                                    width: 0.25),
-                                borderRadius: BorderRadius.circular(100.0)),
-                            margin: new EdgeInsets.fromLTRB(10, 15, 10, 15),
-                            padding: new EdgeInsets.fromLTRB(
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40),
-                            child: Center(
-                                child: Text(
-                              "9",
-                              style: TextStyle(
-                                  color: Colors.black.withOpacity(0.8),
-                                  fontSize: 40,
-                                  fontWeight: FontWeight.w400),
-                            )))),
+                        child: Padding(
+                          padding: EdgeInsets.only(
+                              left: 10, right: 10, top: 15, bottom: 15),
+                          child: RaisedButton(
+                            elevation: 0,
+                            textColor: Colors.white,
+                            color: Colors.grey.withOpacity(0.12),
+                            child: Text("9",
+                                style: TextStyle(
+                                    color: Colors.black.withOpacity(0.8),
+                                    fontSize: 40,
+                                    fontWeight: FontWeight.w400)),
+                            onPressed: () {},
+                            shape: new RoundedRectangleBorder(
+                                borderRadius: new BorderRadius.circular(30.0),
+                                side: BorderSide(
+                                    color: Colors.black.withOpacity(0.1),
+                                    width: 0.5)),
+                          ),
+                        )),
                     Container(
                         color: Colors.white,
                         padding: new EdgeInsets.all(0.0),
                         height: MediaQuery.of(context).size.height * 0.55 / 5,
                         width: MediaQuery.of(context).size.width / 4,
-                        child: Container(
-                            decoration: new BoxDecoration(
-                                color: Colors.black.withOpacity(0.05),
-                                borderRadius: BorderRadius.circular(100.0)),
-                            margin: new EdgeInsets.fromLTRB(10, 15, 10, 15),
-                            padding: new EdgeInsets.fromLTRB(
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40),
-                            child: Center(
-                                child: Text(
-                              "x",
-                              style: TextStyle(
-                                  color: Colors.green[700],
-                                  fontSize: 45,
-                                  fontWeight: FontWeight.w400),
-                            )))),
+                        child: Padding(
+                          padding: EdgeInsets.only(
+                              left: 10, right: 10, top: 15, bottom: 15),
+                          child: RaisedButton(
+                            elevation: 0,
+                            textColor: Colors.white,
+                            color: Colors.grey.withOpacity(0.12),
+                            child: Text("x",
+                                style: TextStyle(
+                                    color: Colors.green[700],
+                                    fontSize: 45,
+                                    fontWeight: FontWeight.w400)),
+                            onPressed: () {},
+                            shape: new RoundedRectangleBorder(
+                                borderRadius: new BorderRadius.circular(30.0),
+                                side: BorderSide(
+                                    color: Colors.black.withOpacity(0.1),
+                                    width: 0.5)),
+                          ),
+                        )),
                   ],
                 ),
                 Row(
@@ -344,102 +351,101 @@ class Calculator extends StatelessWidget {
                         padding: new EdgeInsets.all(0.0),
                         height: MediaQuery.of(context).size.height * 0.55 / 5,
                         width: MediaQuery.of(context).size.width / 4,
-                        child: Container(
-                            decoration: new BoxDecoration(
-                                color: Colors.black.withOpacity(0.05),
-                                border: Border.all(
-                                    color: Colors.black.withOpacity(0.2),
-                                    width: 0.25),
-                                borderRadius: BorderRadius.circular(100.0)),
-                            margin: new EdgeInsets.fromLTRB(10, 15, 10, 15),
-                            padding: new EdgeInsets.fromLTRB(
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40),
-                            child: Center(
-                                child: Text(
-                              "4",
-                              style: TextStyle(
-                                  color: Colors.black.withOpacity(0.8),
-                                  fontSize: 40,
-                                  fontWeight: FontWeight.w400),
-                            )))),
+                        child: Padding(
+                          padding: EdgeInsets.only(
+                              left: 10, right: 10, top: 15, bottom: 15),
+                          child: RaisedButton(
+                            elevation: 0,
+                            textColor: Colors.white,
+                            color: Colors.grey.withOpacity(0.12),
+                            child: Text("4",
+                                style: TextStyle(
+                                    color: Colors.black.withOpacity(0.8),
+                                    fontSize: 40,
+                                    fontWeight: FontWeight.w400)),
+                            onPressed: () {},
+                            shape: new RoundedRectangleBorder(
+                                borderRadius: new BorderRadius.circular(30.0),
+                                side: BorderSide(
+                                    color: Colors.black.withOpacity(0.1),
+                                    width: 0.5)),
+                          ),
+                        )),
                     Container(
                         color: Colors.white,
                         padding: new EdgeInsets.all(0.0),
                         height: MediaQuery.of(context).size.height * 0.55 / 5,
                         width: MediaQuery.of(context).size.width / 4,
-                        child: Container(
-                            decoration: new BoxDecoration(
-                                color: Colors.black.withOpacity(0.05),
-                                border: Border.all(
-                                    color: Colors.black.withOpacity(0.2),
-                                    width: 0.25),
-                                borderRadius: BorderRadius.circular(100.0)),
-                            margin: new EdgeInsets.fromLTRB(10, 15, 10, 15),
-                            padding: new EdgeInsets.fromLTRB(
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40),
-                            child: Center(
-                                child: Text(
-                              "5",
-                              style: TextStyle(
-                                  color: Colors.black.withOpacity(0.8),
-                                  fontSize: 40,
-                                  fontWeight: FontWeight.w400),
-                            )))),
+                        child: Padding(
+                          padding: EdgeInsets.only(
+                              left: 10, right: 10, top: 15, bottom: 15),
+                          child: RaisedButton(
+                            elevation: 0,
+                            textColor: Colors.white,
+                            color: Colors.grey.withOpacity(0.12),
+                            child: Text("5",
+                                style: TextStyle(
+                                    color: Colors.black.withOpacity(0.8),
+                                    fontSize: 40,
+                                    fontWeight: FontWeight.w400)),
+                            onPressed: () {},
+                            shape: new RoundedRectangleBorder(
+                                borderRadius: new BorderRadius.circular(30.0),
+                                side: BorderSide(
+                                    color: Colors.black.withOpacity(0.1),
+                                    width: 0.5)),
+                          ),
+                        )),
                     Container(
                         color: Colors.white,
                         padding: new EdgeInsets.all(0.0),
                         height: MediaQuery.of(context).size.height * 0.55 / 5,
                         width: MediaQuery.of(context).size.width / 4,
-                        child: Container(
-                            decoration: new BoxDecoration(
-                                color: Colors.black.withOpacity(0.05),
-                                border: Border.all(
-                                    color: Colors.black.withOpacity(0.2),
-                                    width: 0.25),
-                                borderRadius: BorderRadius.circular(100.0)),
-                            margin: new EdgeInsets.fromLTRB(10, 15, 10, 15),
-                            padding: new EdgeInsets.fromLTRB(
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40),
-                            child: Center(
-                                child: Text(
-                              "6",
-                              style: TextStyle(
-                                  color: Colors.black.withOpacity(0.8),
-                                  fontSize: 40,
-                                  fontWeight: FontWeight.w400),
-                            )))),
+                        child: Padding(
+                          padding: EdgeInsets.only(
+                              left: 10, right: 10, top: 15, bottom: 15),
+                          child: RaisedButton(
+                            elevation: 0,
+                            textColor: Colors.white,
+                            color: Colors.grey.withOpacity(0.12),
+                            child: Text("6",
+                                style: TextStyle(
+                                    color: Colors.black.withOpacity(0.8),
+                                    fontSize: 40,
+                                    fontWeight: FontWeight.w400)),
+                            onPressed: () {},
+                            shape: new RoundedRectangleBorder(
+                                borderRadius: new BorderRadius.circular(30.0),
+                                side: BorderSide(
+                                    color: Colors.black.withOpacity(0.1),
+                                    width: 0.5)),
+                          ),
+                        )),
                     Container(
                         color: Colors.white,
                         padding: new EdgeInsets.all(0.0),
                         height: MediaQuery.of(context).size.height * 0.55 / 5,
                         width: MediaQuery.of(context).size.width / 4,
-                        child: Container(
-                            decoration: new BoxDecoration(
-                                color: Colors.black.withOpacity(0.05),
-                                borderRadius: BorderRadius.circular(100.0)),
-                            margin: new EdgeInsets.fromLTRB(10, 15, 10, 15),
-                            padding: new EdgeInsets.fromLTRB(
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40),
-                            child: Center(
-                                child: Text(
-                              "−",
-                              style: TextStyle(
-                                  color: Colors.green[700],
-                                  fontSize: 45,
-                                  fontWeight: FontWeight.w400),
-                            )))),
+                        child: Padding(
+                          padding: EdgeInsets.only(
+                              left: 10, right: 10, top: 15, bottom: 15),
+                          child: RaisedButton(
+                            elevation: 0,
+                            textColor: Colors.white,
+                            color: Colors.grey.withOpacity(0.12),
+                            child: Text("-",
+                                style: TextStyle(
+                                    color: Colors.green[700],
+                                    fontSize: 45,
+                                    fontWeight: FontWeight.w400)),
+                            onPressed: () {},
+                            shape: new RoundedRectangleBorder(
+                                borderRadius: new BorderRadius.circular(30.0),
+                                side: BorderSide(
+                                    color: Colors.black.withOpacity(0.1),
+                                    width: 0.5)),
+                          ),
+                        )),
                   ],
                 ),
                 Row(
@@ -449,102 +455,101 @@ class Calculator extends StatelessWidget {
                         padding: new EdgeInsets.all(0.0),
                         height: MediaQuery.of(context).size.height * 0.55 / 5,
                         width: MediaQuery.of(context).size.width / 4,
-                        child: Container(
-                            decoration: new BoxDecoration(
-                                color: Colors.black.withOpacity(0.05),
-                                border: Border.all(
-                                    color: Colors.black.withOpacity(0.2),
-                                    width: 0.25),
-                                borderRadius: BorderRadius.circular(100.0)),
-                            margin: new EdgeInsets.fromLTRB(10, 15, 10, 15),
-                            padding: new EdgeInsets.fromLTRB(
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40),
-                            child: Center(
-                                child: Text(
-                              "1",
-                              style: TextStyle(
-                                  color: Colors.black.withOpacity(0.8),
-                                  fontSize: 40,
-                                  fontWeight: FontWeight.w400),
-                            )))),
+                        child: Padding(
+                          padding: EdgeInsets.only(
+                              left: 10, right: 10, top: 15, bottom: 15),
+                          child: RaisedButton(
+                            elevation: 0,
+                            textColor: Colors.white,
+                            color: Colors.grey.withOpacity(0.12),
+                            child: Text("1",
+                                style: TextStyle(
+                                    color: Colors.black.withOpacity(0.8),
+                                    fontSize: 40,
+                                    fontWeight: FontWeight.w400)),
+                            onPressed: () {},
+                            shape: new RoundedRectangleBorder(
+                                borderRadius: new BorderRadius.circular(30.0),
+                                side: BorderSide(
+                                    color: Colors.black.withOpacity(0.1),
+                                    width: 0.5)),
+                          ),
+                        )),
                     Container(
                         color: Colors.white,
                         padding: new EdgeInsets.all(0.0),
                         height: MediaQuery.of(context).size.height * 0.55 / 5,
                         width: MediaQuery.of(context).size.width / 4,
-                        child: Container(
-                            decoration: new BoxDecoration(
-                                color: Colors.black.withOpacity(0.05),
-                                border: Border.all(
-                                    color: Colors.black.withOpacity(0.2),
-                                    width: 0.25),
-                                borderRadius: BorderRadius.circular(100.0)),
-                            margin: new EdgeInsets.fromLTRB(10, 15, 10, 15),
-                            padding: new EdgeInsets.fromLTRB(
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40),
-                            child: Center(
-                                child: Text(
-                              "2",
-                              style: TextStyle(
-                                  color: Colors.black.withOpacity(0.8),
-                                  fontSize: 40,
-                                  fontWeight: FontWeight.w400),
-                            )))),
+                        child: Padding(
+                          padding: EdgeInsets.only(
+                              left: 10, right: 10, top: 15, bottom: 15),
+                          child: RaisedButton(
+                            elevation: 0,
+                            textColor: Colors.white,
+                            color: Colors.grey.withOpacity(0.12),
+                            child: Text("2",
+                                style: TextStyle(
+                                    color: Colors.black.withOpacity(0.8),
+                                    fontSize: 40,
+                                    fontWeight: FontWeight.w400)),
+                            onPressed: () {},
+                            shape: new RoundedRectangleBorder(
+                                borderRadius: new BorderRadius.circular(30.0),
+                                side: BorderSide(
+                                    color: Colors.black.withOpacity(0.1),
+                                    width: 0.5)),
+                          ),
+                        )),
                     Container(
                         color: Colors.white,
                         padding: new EdgeInsets.all(0.0),
                         height: MediaQuery.of(context).size.height * 0.55 / 5,
                         width: MediaQuery.of(context).size.width / 4,
-                        child: Container(
-                            decoration: new BoxDecoration(
-                                color: Colors.black.withOpacity(0.05),
-                                border: Border.all(
-                                    color: Colors.black.withOpacity(0.2),
-                                    width: 0.25),
-                                borderRadius: BorderRadius.circular(100.0)),
-                            margin: new EdgeInsets.fromLTRB(10, 15, 10, 15),
-                            padding: new EdgeInsets.fromLTRB(
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40),
-                            child: Center(
-                                child: Text(
-                              "3",
-                              style: TextStyle(
-                                  color: Colors.black.withOpacity(0.8),
-                                  fontSize: 40,
-                                  fontWeight: FontWeight.w400),
-                            )))),
+                        child: Padding(
+                          padding: EdgeInsets.only(
+                              left: 10, right: 10, top: 15, bottom: 15),
+                          child: RaisedButton(
+                            elevation: 0,
+                            textColor: Colors.white,
+                            color: Colors.grey.withOpacity(0.12),
+                            child: Text("3",
+                                style: TextStyle(
+                                    color: Colors.black.withOpacity(0.8),
+                                    fontSize: 40,
+                                    fontWeight: FontWeight.w400)),
+                            onPressed: () {},
+                            shape: new RoundedRectangleBorder(
+                                borderRadius: new BorderRadius.circular(30.0),
+                                side: BorderSide(
+                                    color: Colors.black.withOpacity(0.1),
+                                    width: 0.5)),
+                          ),
+                        )),
                     Container(
                         color: Colors.white,
                         padding: new EdgeInsets.all(0.0),
                         height: MediaQuery.of(context).size.height * 0.55 / 5,
                         width: MediaQuery.of(context).size.width / 4,
-                        child: Container(
-                            decoration: new BoxDecoration(
-                                color: Colors.black.withOpacity(0.05),
-                                borderRadius: BorderRadius.circular(100.0)),
-                            margin: new EdgeInsets.fromLTRB(10, 15, 10, 15),
-                            padding: new EdgeInsets.fromLTRB(
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40),
-                            child: Center(
-                                child: Text(
-                              "+",
-                              style: TextStyle(
-                                  color: Colors.green[700],
-                                  fontSize: 45,
-                                  fontWeight: FontWeight.w400),
-                            ))))
+                        child: Padding(
+                          padding: EdgeInsets.only(
+                              left: 10, right: 10, top: 15, bottom: 15),
+                          child: RaisedButton(
+                            elevation: 0,
+                            textColor: Colors.white,
+                            color: Colors.grey.withOpacity(0.12),
+                            child: Text("+",
+                                style: TextStyle(
+                                    color: Colors.green[700],
+                                    fontSize: 45,
+                                    fontWeight: FontWeight.w400)),
+                            onPressed: () {},
+                            shape: new RoundedRectangleBorder(
+                                borderRadius: new BorderRadius.circular(30.0),
+                                side: BorderSide(
+                                    color: Colors.black.withOpacity(0.1),
+                                    width: 0.5)),
+                          ),
+                        )),
                   ],
                 ),
                 Row(
@@ -554,102 +559,101 @@ class Calculator extends StatelessWidget {
                         padding: new EdgeInsets.all(0.0),
                         height: MediaQuery.of(context).size.height * 0.55 / 5,
                         width: MediaQuery.of(context).size.width / 4,
-                        child: Container(
-                            decoration: new BoxDecoration(
-                                color: Colors.black.withOpacity(0.05),
-                                border: Border.all(
-                                    color: Colors.black.withOpacity(0.2),
-                                    width: 0.25),
-                                borderRadius: BorderRadius.circular(100.0)),
-                            margin: new EdgeInsets.fromLTRB(10, 15, 10, 15),
-                            padding: new EdgeInsets.fromLTRB(
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40),
-                            child: Center(
-                                child: Text(
-                              "+/-",
-                              style: TextStyle(
-                                  color: Colors.black.withOpacity(0.8),
-                                  fontSize: 40,
-                                  fontWeight: FontWeight.w400),
-                            )))),
+                        child: Padding(
+                          padding: EdgeInsets.only(
+                              left: 10, right: 10, top: 15, bottom: 15),
+                          child: RaisedButton(
+                            elevation: 0,
+                            textColor: Colors.white,
+                            color: Colors.grey.withOpacity(0.12),
+                            child: Text("+/-",
+                                style: TextStyle(
+                                    color: Colors.black.withOpacity(0.8),
+                                    fontSize: 40,
+                                    fontWeight: FontWeight.w400)),
+                            onPressed: () {},
+                            shape: new RoundedRectangleBorder(
+                                borderRadius: new BorderRadius.circular(30.0),
+                                side: BorderSide(
+                                    color: Colors.black.withOpacity(0.1),
+                                    width: 0.5)),
+                          ),
+                        )),
                     Container(
                         color: Colors.white,
                         padding: new EdgeInsets.all(0.0),
                         height: MediaQuery.of(context).size.height * 0.55 / 5,
                         width: MediaQuery.of(context).size.width / 4,
-                        child: Container(
-                            decoration: new BoxDecoration(
-                                color: Colors.black.withOpacity(0.05),
-                                border: Border.all(
-                                    color: Colors.black.withOpacity(0.2),
-                                    width: 0.25),
-                                borderRadius: BorderRadius.circular(100.0)),
-                            margin: new EdgeInsets.fromLTRB(10, 15, 10, 15),
-                            padding: new EdgeInsets.fromLTRB(
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40),
-                            child: Center(
-                                child: Text(
-                              "0",
-                              style: TextStyle(
-                                  color: Colors.black.withOpacity(0.8),
-                                  fontSize: 40,
-                                  fontWeight: FontWeight.w400),
-                            )))),
+                        child: Padding(
+                          padding: EdgeInsets.only(
+                              left: 10, right: 10, top: 15, bottom: 15),
+                          child: RaisedButton(
+                            elevation: 0,
+                            textColor: Colors.white,
+                            color: Colors.grey.withOpacity(0.12),
+                            child: Text("0",
+                                style: TextStyle(
+                                    color: Colors.black.withOpacity(0.8),
+                                    fontSize: 40,
+                                    fontWeight: FontWeight.w400)),
+                            onPressed: () {},
+                            shape: new RoundedRectangleBorder(
+                                borderRadius: new BorderRadius.circular(30.0),
+                                side: BorderSide(
+                                    color: Colors.black.withOpacity(0.1),
+                                    width: 0.5)),
+                          ),
+                        )),
                     Container(
                         color: Colors.white,
                         padding: new EdgeInsets.all(0.0),
                         height: MediaQuery.of(context).size.height * 0.55 / 5,
                         width: MediaQuery.of(context).size.width / 4,
-                        child: Container(
-                            decoration: new BoxDecoration(
-                                color: Colors.black.withOpacity(0.05),
-                                border: Border.all(
-                                    color: Colors.black.withOpacity(0.2),
-                                    width: 0.25),
-                                borderRadius: BorderRadius.circular(100.0)),
-                            margin: new EdgeInsets.fromLTRB(10, 15, 10, 15),
-                            padding: new EdgeInsets.fromLTRB(
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40),
-                            child: Center(
-                                child: Text(
-                              ".",
-                              style: TextStyle(
-                                  color: Colors.black.withOpacity(0.8),
-                                  fontSize: 40,
-                                  fontWeight: FontWeight.w400),
-                            )))),
+                        child: Padding(
+                          padding: EdgeInsets.only(
+                              left: 10, right: 10, top: 15, bottom: 15),
+                          child: RaisedButton(
+                            elevation: 0,
+                            textColor: Colors.white,
+                            color: Colors.grey.withOpacity(0.12),
+                            child: Text(".",
+                                style: TextStyle(
+                                    color: Colors.black.withOpacity(0.8),
+                                    fontSize: 40,
+                                    fontWeight: FontWeight.w400)),
+                            onPressed: () {},
+                            shape: new RoundedRectangleBorder(
+                                borderRadius: new BorderRadius.circular(30.0),
+                                side: BorderSide(
+                                    color: Colors.black.withOpacity(0.1),
+                                    width: 0.5)),
+                          ),
+                        )),
                     Container(
                         color: Colors.white,
                         padding: new EdgeInsets.all(0.0),
                         height: MediaQuery.of(context).size.height * 0.55 / 5,
                         width: MediaQuery.of(context).size.width / 4,
-                        child: Container(
-                            decoration: new BoxDecoration(
-                                color: Colors.green[700].withOpacity(1),
-                                borderRadius: BorderRadius.circular(100.0)),
-                            margin: new EdgeInsets.fromLTRB(10, 15, 10, 15),
-                            padding: new EdgeInsets.fromLTRB(
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40,
-                                MediaQuery.of(context).size.width / 40),
-                            child: Center(
-                                child: Text(
-                              "=",
-                              style: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 45,
-                                  fontWeight: FontWeight.normal),
-                            ))))
+                        child: Padding(
+                          padding: EdgeInsets.only(
+                              left: 10, right: 10, top: 15, bottom: 15),
+                          child: RaisedButton(
+                            elevation: 0,
+                            textColor: Colors.white,
+                            color: Colors.green[700].withOpacity(1),
+                            child: Text("=",
+                                style: TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 45,
+                                    fontWeight: FontWeight.w400)),
+                            onPressed: () {},
+                            shape: new RoundedRectangleBorder(
+                                borderRadius: new BorderRadius.circular(30.0),
+                                side: BorderSide(
+                                    color: Colors.black.withOpacity(0.1),
+                                    width: 0.5)),
+                          ),
+                        )),
                   ],
                 ),
               ],
