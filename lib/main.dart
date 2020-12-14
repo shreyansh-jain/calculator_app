@@ -87,37 +87,43 @@ class Calculator extends StatelessWidget {
                                         0.10,
                                     width:
                                         MediaQuery.of(context).size.width / 6),
+                                // Container(
+                                //     color: Colors.white,
+                                //     height: MediaQuery.of(context).size.height *
+                                //         0.10,
+                                //     child: IconButton(
+                                //       icon: Icon(Icons.linear_scale),
+                                //       color: Colors.black.withOpacity(0.5),
+                                //       onPressed: () => {},
+                                //     ),
+                                //     width:
+                                //         MediaQuery.of(context).size.width / 6),
+                                // Container(
+                                //     color: Colors.white,
+                                //     height: MediaQuery.of(context).size.height *
+                                //         0.10,
+                                //     child: IconButton(
+                                //       icon: Icon(Icons.history),
+                                //       color: Colors.black.withOpacity(0.5),
+                                //       onPressed: () => {},
+                                //     ),
+                                //     width:
+                                //         MediaQuery.of(context).size.width / 6),
+                                SizedBox(
+                                    width: 30 +
+                                        MediaQuery.of(context).size.width / 3),
                                 Container(
                                     color: Colors.white,
+                                    alignment: Alignment.centerRight,
                                     height: MediaQuery.of(context).size.height *
                                         0.10,
-                                    child: IconButton(
-                                      icon: Icon(Icons.linear_scale),
-                                      color: Colors.black.withOpacity(0.5),
-                                      onPressed: () => {},
-                                    ),
-                                    width:
-                                        MediaQuery.of(context).size.width / 6),
-                                Container(
-                                    color: Colors.white,
-                                    height: MediaQuery.of(context).size.height *
-                                        0.10,
-                                    child: IconButton(
-                                      icon: Icon(Icons.history),
-                                      color: Colors.black.withOpacity(0.5),
-                                      onPressed: () => {},
-                                    ),
-                                    width:
-                                        MediaQuery.of(context).size.width / 6),
-                                SizedBox(width: 30),
-                                Container(
-                                    color: Colors.white,
-                                    height: MediaQuery.of(context).size.height *
-                                        0.10,
-                                    child: IconButton(
-                                      icon: Icon(Icons.close),
-                                      color: Colors.red,
-                                      onPressed: () => {},
+                                    child: Padding(
+                                      padding: const EdgeInsets.all(16.0),
+                                      child: IconButton(
+                                        icon: Icon(Icons.backspace),
+                                        color: Colors.red,
+                                        onPressed: () => {},
+                                      ),
                                     ),
                                     width:
                                         MediaQuery.of(context).size.width / 3),
