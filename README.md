@@ -10,6 +10,8 @@ Make sure you have installed all the dependencies for flutter.
 Connect a device and run the command
 
 flutter run
+## To download and run this apk, use the following url:
+[URL](https://tinyurl.com/ybm325ol)
 
 ## External Help (Official Docs to get Started to Flutter):
 
