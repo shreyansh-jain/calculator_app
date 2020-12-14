@@ -15,38 +15,114 @@ class Calculator extends StatelessWidget {
       Row(
         children: [
           Container(
-              color: Colors.orange,
+              color: Colors.white,
               height: MediaQuery.of(context).size.height * 0.45,
               width: MediaQuery.of(context).size.width,
               child: Container(
-                  color: Colors.green,
+                  color: Colors.white,
                   height: MediaQuery.of(context).size.height * 0.45,
                   width: MediaQuery.of(context).size.width,
                   child: Column(
                     children: <Widget>[
                       Row(children: [
                         Container(
-                          color: Colors.orange,
-                          padding: new EdgeInsets.all(0.0),
-                          height: MediaQuery.of(context).size.height * 0.35,
-                          width: MediaQuery.of(context).size.width,
-                          child: RaisedButton(
-                            color: Colors.blue,
-                            onPressed: () => {},
-                          ),
-                        ),
+                            color: Colors.white,
+                            padding: new EdgeInsets.all(0.0),
+                            height: MediaQuery.of(context).size.height * 0.35,
+                            width: MediaQuery.of(context).size.width,
+                            child: Center(
+                                child: Column(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: <Widget>[
+                                Container(
+                                  child: Padding(
+                                    padding: const EdgeInsets.all(16.0),
+                                    child: TextField(
+                                      decoration: InputDecoration(
+                                        border: InputBorder.none,
+                                        hintText: '11x11',
+                                      ),
+                                      showCursor: true,
+                                      cursorColor: Colors.black,
+                                      textAlign: TextAlign.right,
+                                      readOnly: true,
+                                    ),
+                                  ),
+                                ),
+                                Container(
+                                  width: MediaQuery.of(context).size.width,
+                                  child: Padding(
+                                    padding: const EdgeInsets.all(16.0),
+                                    child: Text("121",
+                                        overflow: TextOverflow.visible,
+                                        textAlign: TextAlign.end,
+                                        style: TextStyle(
+                                          color: Colors.black,
+                                          fontSize: 20,
+                                        )),
+                                  ),
+                                )
+                              ],
+                            ))),
                       ]),
                       Row(children: [
                         Container(
-                          color: Colors.orange,
-                          padding: new EdgeInsets.all(0.0),
-                          height: MediaQuery.of(context).size.height * 0.10,
-                          width: MediaQuery.of(context).size.width,
-                          child: RaisedButton(
-                            color: Colors.green,
-                            onPressed: () => {},
-                          ),
-                        ),
+                            color: Colors.white,
+                            padding: new EdgeInsets.all(0.0),
+                            height: MediaQuery.of(context).size.height * 0.10,
+                            width: MediaQuery.of(context).size.width,
+                            child: Container(
+                                child: Row(
+                              children: <Widget>[
+                                SizedBox(width: 30),
+                                Container(
+                                    color: Colors.white,
+                                    child: IconButton(
+                                      icon: Icon(Icons.history),
+                                      color: Colors.black.withOpacity(0.5),
+                                      onPressed: () => {},
+                                    ),
+                                    height: MediaQuery.of(context).size.height *
+                                        0.10,
+                                    width:
+                                        MediaQuery.of(context).size.width / 6),
+                                Container(
+                                    color: Colors.white,
+                                    height: MediaQuery.of(context).size.height *
+                                        0.10,
+                                    child: IconButton(
+                                      icon: Icon(Icons.linear_scale),
+                                      color: Colors.black.withOpacity(0.5),
+                                      onPressed: () => {},
+                                    ),
+                                    width:
+                                        MediaQuery.of(context).size.width / 6),
+                                Container(
+                                    color: Colors.white,
+                                    height: MediaQuery.of(context).size.height *
+                                        0.10,
+                                    child: IconButton(
+                                      icon: Icon(Icons.history),
+                                      color: Colors.black.withOpacity(0.5),
+                                      onPressed: () => {},
+                                    ),
+                                    width:
+                                        MediaQuery.of(context).size.width / 6),
+                                SizedBox(width: 30),
+                                Container(
+                                    color: Colors.white,
+                                    height: MediaQuery.of(context).size.height *
+                                        0.10,
+                                    child: IconButton(
+                                      icon: Icon(Icons.close),
+                                      color: Colors.red,
+                                      onPressed: () => {},
+                                    ),
+                                    width:
+                                        MediaQuery.of(context).size.width / 3),
+                              ],
+                            ))),
                       ])
                     ],
                   ))),
