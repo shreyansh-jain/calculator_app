@@ -55,7 +55,7 @@ class Calculator extends StatelessWidget {
       Row(
         children: <Widget>[
           Container(
-            color: Colors.green,
+            color: Colors.white,
             height: MediaQuery.of(context).size.height * 0.55,
             width: MediaQuery.of(context).size.width,
             child: Column(
@@ -80,7 +80,10 @@ class Calculator extends StatelessWidget {
                             child: Center(
                                 child: Text(
                               "C",
-                              style: TextStyle(color: Colors.red, fontSize: 35),
+                              style: TextStyle(
+                                  color: Colors.red,
+                                  fontSize: 35,
+                                  fontWeight: FontWeight.normal),
                             )))),
                     Container(
                         color: Colors.white,
@@ -103,7 +106,7 @@ class Calculator extends StatelessWidget {
                               style: TextStyle(
                                   color: Colors.green,
                                   fontSize: 25,
-                                  fontWeight: FontWeight.bold),
+                                  fontWeight: FontWeight.normal),
                             )))),
                     Container(
                         color: Colors.white,
@@ -126,7 +129,7 @@ class Calculator extends StatelessWidget {
                               style: TextStyle(
                                   color: Colors.green,
                                   fontSize: 35,
-                                  fontWeight: FontWeight.bold),
+                                  fontWeight: FontWeight.normal),
                             )))),
                     Container(
                         color: Colors.white,
@@ -148,7 +151,7 @@ class Calculator extends StatelessWidget {
                               "÷",
                               style: TextStyle(
                                   color: Colors.green,
-                                  fontSize: 45,
+                                  fontSize: 35,
                                   fontWeight: FontWeight.normal),
                             )))),
                   ],
@@ -163,6 +166,9 @@ class Calculator extends StatelessWidget {
                         child: Container(
                             decoration: new BoxDecoration(
                                 color: Colors.black.withOpacity(0.05),
+                                border: Border.all(
+                                    color: Colors.black.withOpacity(0.2),
+                                    width: 0.25),
                                 borderRadius: BorderRadius.circular(100.0)),
                             margin: new EdgeInsets.fromLTRB(10, 15, 10, 15),
                             padding: new EdgeInsets.fromLTRB(
@@ -175,8 +181,8 @@ class Calculator extends StatelessWidget {
                               "7",
                               style: TextStyle(
                                   color: Colors.black.withOpacity(0.8),
-                                  fontSize: 35,
-                                  fontWeight: FontWeight.normal),
+                                  fontSize: 40,
+                                  fontWeight: FontWeight.w400),
                             )))),
                     Container(
                         color: Colors.white,
@@ -186,6 +192,9 @@ class Calculator extends StatelessWidget {
                         child: Container(
                             decoration: new BoxDecoration(
                                 color: Colors.black.withOpacity(0.05),
+                                border: Border.all(
+                                    color: Colors.black.withOpacity(0.2),
+                                    width: 0.25),
                                 borderRadius: BorderRadius.circular(100.0)),
                             margin: new EdgeInsets.fromLTRB(10, 15, 10, 15),
                             padding: new EdgeInsets.fromLTRB(
@@ -198,8 +207,8 @@ class Calculator extends StatelessWidget {
                               "8",
                               style: TextStyle(
                                   color: Colors.black.withOpacity(0.8),
-                                  fontSize: 35,
-                                  fontWeight: FontWeight.normal),
+                                  fontSize: 40,
+                                  fontWeight: FontWeight.w400),
                             )))),
                     Container(
                         color: Colors.white,
@@ -209,6 +218,9 @@ class Calculator extends StatelessWidget {
                         child: Container(
                             decoration: new BoxDecoration(
                                 color: Colors.black.withOpacity(0.05),
+                                border: Border.all(
+                                    color: Colors.black.withOpacity(0.2),
+                                    width: 0.25),
                                 borderRadius: BorderRadius.circular(100.0)),
                             margin: new EdgeInsets.fromLTRB(10, 15, 10, 15),
                             padding: new EdgeInsets.fromLTRB(
@@ -221,8 +233,8 @@ class Calculator extends StatelessWidget {
                               "9",
                               style: TextStyle(
                                   color: Colors.black.withOpacity(0.8),
-                                  fontSize: 35,
-                                  fontWeight: FontWeight.normal),
+                                  fontSize: 40,
+                                  fontWeight: FontWeight.w400),
                             )))),
                     Container(
                         color: Colors.white,
@@ -244,7 +256,7 @@ class Calculator extends StatelessWidget {
                               "x",
                               style: TextStyle(
                                   color: Colors.green,
-                                  fontSize: 35,
+                                  fontSize: 30,
                                   fontWeight: FontWeight.normal),
                             )))),
                   ],
@@ -259,6 +271,9 @@ class Calculator extends StatelessWidget {
                         child: Container(
                             decoration: new BoxDecoration(
                                 color: Colors.black.withOpacity(0.05),
+                                border: Border.all(
+                                    color: Colors.black.withOpacity(0.2),
+                                    width: 0.25),
                                 borderRadius: BorderRadius.circular(100.0)),
                             margin: new EdgeInsets.fromLTRB(10, 15, 10, 15),
                             padding: new EdgeInsets.fromLTRB(
@@ -271,8 +286,8 @@ class Calculator extends StatelessWidget {
                               "4",
                               style: TextStyle(
                                   color: Colors.black.withOpacity(0.8),
-                                  fontSize: 35,
-                                  fontWeight: FontWeight.normal),
+                                  fontSize: 40,
+                                  fontWeight: FontWeight.w400),
                             )))),
                     Container(
                         color: Colors.white,
@@ -282,6 +297,9 @@ class Calculator extends StatelessWidget {
                         child: Container(
                             decoration: new BoxDecoration(
                                 color: Colors.black.withOpacity(0.05),
+                                border: Border.all(
+                                    color: Colors.black.withOpacity(0.2),
+                                    width: 0.25),
                                 borderRadius: BorderRadius.circular(100.0)),
                             margin: new EdgeInsets.fromLTRB(10, 15, 10, 15),
                             padding: new EdgeInsets.fromLTRB(
@@ -294,8 +312,8 @@ class Calculator extends StatelessWidget {
                               "5",
                               style: TextStyle(
                                   color: Colors.black.withOpacity(0.8),
-                                  fontSize: 35,
-                                  fontWeight: FontWeight.normal),
+                                  fontSize: 40,
+                                  fontWeight: FontWeight.w400),
                             )))),
                     Container(
                         color: Colors.white,
@@ -305,6 +323,9 @@ class Calculator extends StatelessWidget {
                         child: Container(
                             decoration: new BoxDecoration(
                                 color: Colors.black.withOpacity(0.05),
+                                border: Border.all(
+                                    color: Colors.black.withOpacity(0.2),
+                                    width: 0.25),
                                 borderRadius: BorderRadius.circular(100.0)),
                             margin: new EdgeInsets.fromLTRB(10, 15, 10, 15),
                             padding: new EdgeInsets.fromLTRB(
@@ -317,8 +338,8 @@ class Calculator extends StatelessWidget {
                               "6",
                               style: TextStyle(
                                   color: Colors.black.withOpacity(0.8),
-                                  fontSize: 35,
-                                  fontWeight: FontWeight.normal),
+                                  fontSize: 40,
+                                  fontWeight: FontWeight.w400),
                             )))),
                     Container(
                         color: Colors.white,
@@ -355,6 +376,9 @@ class Calculator extends StatelessWidget {
                         child: Container(
                             decoration: new BoxDecoration(
                                 color: Colors.black.withOpacity(0.05),
+                                border: Border.all(
+                                    color: Colors.black.withOpacity(0.2),
+                                    width: 0.25),
                                 borderRadius: BorderRadius.circular(100.0)),
                             margin: new EdgeInsets.fromLTRB(10, 15, 10, 15),
                             padding: new EdgeInsets.fromLTRB(
@@ -367,8 +391,8 @@ class Calculator extends StatelessWidget {
                               "1",
                               style: TextStyle(
                                   color: Colors.black.withOpacity(0.8),
-                                  fontSize: 35,
-                                  fontWeight: FontWeight.normal),
+                                  fontSize: 40,
+                                  fontWeight: FontWeight.w400),
                             )))),
                     Container(
                         color: Colors.white,
@@ -378,6 +402,9 @@ class Calculator extends StatelessWidget {
                         child: Container(
                             decoration: new BoxDecoration(
                                 color: Colors.black.withOpacity(0.05),
+                                border: Border.all(
+                                    color: Colors.black.withOpacity(0.2),
+                                    width: 0.25),
                                 borderRadius: BorderRadius.circular(100.0)),
                             margin: new EdgeInsets.fromLTRB(10, 15, 10, 15),
                             padding: new EdgeInsets.fromLTRB(
@@ -390,8 +417,8 @@ class Calculator extends StatelessWidget {
                               "2",
                               style: TextStyle(
                                   color: Colors.black.withOpacity(0.8),
-                                  fontSize: 35,
-                                  fontWeight: FontWeight.normal),
+                                  fontSize: 40,
+                                  fontWeight: FontWeight.w400),
                             )))),
                     Container(
                         color: Colors.white,
@@ -401,6 +428,9 @@ class Calculator extends StatelessWidget {
                         child: Container(
                             decoration: new BoxDecoration(
                                 color: Colors.black.withOpacity(0.05),
+                                border: Border.all(
+                                    color: Colors.black.withOpacity(0.2),
+                                    width: 0.25),
                                 borderRadius: BorderRadius.circular(100.0)),
                             margin: new EdgeInsets.fromLTRB(10, 15, 10, 15),
                             padding: new EdgeInsets.fromLTRB(
@@ -413,8 +443,8 @@ class Calculator extends StatelessWidget {
                               "3",
                               style: TextStyle(
                                   color: Colors.black.withOpacity(0.8),
-                                  fontSize: 35,
-                                  fontWeight: FontWeight.normal),
+                                  fontSize: 40,
+                                  fontWeight: FontWeight.w400),
                             )))),
                     Container(
                         color: Colors.white,
@@ -451,6 +481,9 @@ class Calculator extends StatelessWidget {
                         child: Container(
                             decoration: new BoxDecoration(
                                 color: Colors.black.withOpacity(0.05),
+                                border: Border.all(
+                                    color: Colors.black.withOpacity(0.2),
+                                    width: 0.25),
                                 borderRadius: BorderRadius.circular(100.0)),
                             margin: new EdgeInsets.fromLTRB(10, 15, 10, 15),
                             padding: new EdgeInsets.fromLTRB(
@@ -463,8 +496,8 @@ class Calculator extends StatelessWidget {
                               "+/-",
                               style: TextStyle(
                                   color: Colors.black.withOpacity(0.8),
-                                  fontSize: 35,
-                                  fontWeight: FontWeight.normal),
+                                  fontSize: 40,
+                                  fontWeight: FontWeight.w400),
                             )))),
                     Container(
                         color: Colors.white,
@@ -474,6 +507,9 @@ class Calculator extends StatelessWidget {
                         child: Container(
                             decoration: new BoxDecoration(
                                 color: Colors.black.withOpacity(0.05),
+                                border: Border.all(
+                                    color: Colors.black.withOpacity(0.2),
+                                    width: 0.25),
                                 borderRadius: BorderRadius.circular(100.0)),
                             margin: new EdgeInsets.fromLTRB(10, 15, 10, 15),
                             padding: new EdgeInsets.fromLTRB(
@@ -486,8 +522,8 @@ class Calculator extends StatelessWidget {
                               "0",
                               style: TextStyle(
                                   color: Colors.black.withOpacity(0.8),
-                                  fontSize: 35,
-                                  fontWeight: FontWeight.normal),
+                                  fontSize: 40,
+                                  fontWeight: FontWeight.w400),
                             )))),
                     Container(
                         color: Colors.white,
@@ -497,6 +533,9 @@ class Calculator extends StatelessWidget {
                         child: Container(
                             decoration: new BoxDecoration(
                                 color: Colors.black.withOpacity(0.05),
+                                border: Border.all(
+                                    color: Colors.black.withOpacity(0.2),
+                                    width: 0.25),
                                 borderRadius: BorderRadius.circular(100.0)),
                             margin: new EdgeInsets.fromLTRB(10, 15, 10, 15),
                             padding: new EdgeInsets.fromLTRB(
@@ -509,8 +548,8 @@ class Calculator extends StatelessWidget {
                               ".",
                               style: TextStyle(
                                   color: Colors.black.withOpacity(0.8),
-                                  fontSize: 35,
-                                  fontWeight: FontWeight.normal),
+                                  fontSize: 40,
+                                  fontWeight: FontWeight.w400),
                             )))),
                     Container(
                         color: Colors.white,
